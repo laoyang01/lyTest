@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>项目实战</title>
+</head>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap/css/style.css">
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">LOGO图标</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-list"></span> 资讯</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-fire"></span> 案例</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> 关于</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+	<div id="myCarousel" class="carousel slide">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+			<div class="carousel-inner">
+				<div class="item active" style="background:#a1b5c0">
+					<img src="bootstrap/img/timE.jpg" alt="第一张">
+				</div>
+				<div class="item" style="background: #c4c9cf">
+					<img src="bootstrap/img/timf.jpg" alt="第二张">
+				</div>
+				<div class="item" style="background: #96bac8">
+					<img src="bootstrap/img/timg.jpg" alt="第三张">
+				</div>
+			</div>
+		<a href="#myCarousel" class="carousel-control left" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a href="#myCarousel" class="carousel-control right" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+
+
+	<div class="tab1">
+		<div class="container">
+			<h2 class="tab-h2">[Bootstrap相关优质项目推荐]</h2>
+			<p class="tab-p">这些项目或者是对Bootstrap进行了有益的补充，或者是基于Bootstrap开发的</p>
+			<div class="row">
+				<div class="col-md-6 col">
+				<div class="media">
+					<div class="media-left">
+						<a href="#"><img src="bootstrap/img/chart1.png" class="media-object" alt=""></a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">指标标准</h4>
+						<p class="text-muted">简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</p>
+						<p>图标类不能和其它组件直接联合使用。它们不能在同一个元素上与其他类共同存在。</p>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-6 col">
+				<div class="media">
+					<div class="media-left">
+						<a href="#"><img src="bootstrap/img/chart1.png" class="media-object" alt=""></a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">指标标准</h4>
+						<p class="text-muted">简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</p>
+						<p>图标类不能和其它组件直接联合使用。它们不能在同一个元素上与其他类共同存在。</p>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-6 col">
+				<div class="media">
+					<div class="media-left">
+						<a href="#"><img src="bootstrap/img/chart1.png" class="media-object" alt=""></a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">指标标准</h4>
+						<p class="text-muted">简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</p>
+						<p>图标类不能和其它组件直接联合使用。它们不能在同一个元素上与其他类共同存在。</p>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-6 col">
+				<div class="media">
+					<div class="media-left">
+						<a href="#"><img src="bootstrap/img/chart1.png" class="media-object" alt=""></a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">指标标准</h4>
+						<p class="text-muted">简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</p>
+						<p>图标类不能和其它组件直接联合使用。它们不能在同一个元素上与其他类共同存在。</p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="tab2">
+	<div class="container">
+		<div class="row">			
+			<div class="col-md-6 col-xm-6 tab2-img">
+				<img src="bootstrap/img/pic1.png" class="auto img-responsive center-block" alt="">
+			</div>
+			<div class="text col-md-6 col-xm-6 tab2-text">
+				<h3>去打打上单吧</h3>
+				<p>现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的 Unicode 字符。为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了 aria-hidden="true" 属性。</p>
+			</div>
+		</div>
+	
+	</div>
+</div>
+<div class="tab3">
+	<div class="container">
+		<div class="row">
+			<div class="col-xm-6 col-md-6">
+				<img src="bootstrap/img/pic1.png" class="auto img-responsive center-block" alt="">
+			</div>
+			<div class="text col-xm-6col-md-6">
+				<h3>哈哈哈哈或</h3>
+				<p>Bootstrap 假定所有的图标字体文件全部位于 ../fonts/ 目录内，相对于预编译版 CSS 文件的目录。如果你修改了图标字体文件的位置，那么，你需要通过下面列出的任何一种方式来更新 CSS 文件</p>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<footer id="footer">
+	<p>企业文化 | 文化事宜 | 版权投诉</p>
+	<p>豫ICP 备12345678. ©2000-2020 中国内网,Power by bootstrap.</p>
+</footer>
+
+
+
+<script src="bootstrap/jquery-3.1.1.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script>
+	$(function(){
+		//轮播自动播放
+		$('#myCarousel').carousel({
+			interval:3000,
+		});
+
+	$('.text').eq(0).css('margin-top',($('.auto').eq(0).height()-$('.text').eq(0).height()) / 2 + 'px');
+	$(window).resize(function () {
+		$('.text').eq(0).css('margin-top', ($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 + 'px');
+	})
+	$('.text').eq(1).css('margin-top',($('.auto').eq(0).height()-$('.text').eq(0).height()) / 2 + 'px');
+    $(window).resize(function () {
+	$('.text').eq(1).css('margin-top', ($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 + 'px');
+})
+	})
+</script>
+</body>
+</html>
